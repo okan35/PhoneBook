@@ -1,0 +1,10 @@
+c:\users\pc\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\pc\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+C:\Users\pc\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Form1.resources
+C:\Users\pc\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\pc\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
+C:\Users\pc\Documents\Visual Studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\pc\documents\visual studio 2015\Projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Form2.resources
