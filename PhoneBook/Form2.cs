@@ -22,8 +22,14 @@ namespace PhoneBook
 
         public void logincheck()
         {
-            connect.Open();
-
+            try
+            {
+                connect.Open();
+            }
+            catch(SqlException T)
+            {
+                MessageBox.Show("Error in establishing connection with database. + " T.Message);
+            }
             
             SqlCommand commander = new SqlCommand("SELECT * FROM table_login WHERE username='@username' and password='@password'", connect);
 
