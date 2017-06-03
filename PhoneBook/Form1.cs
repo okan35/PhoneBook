@@ -17,21 +17,18 @@
             {
                 InitializeComponent();
             }
-            try 
-            {	             
+          	             
                 SqlConnection connect = new SqlConnection("Data Source=DESKTOP-58TQHKQ;Initial Catalog=phonebook;Integrated Security=True; MultipleActiveResultSets=True");  
-            
-            }
-            catch (SqlException  T)
-            {
-                MessageBox.Show("Error in establishing connection to database. " + T.Message);
-            }   
-            
-
-            
             public void necessary_ending_dbactions()
             {
-                connect.Close();
+                try
+                {
+                    connect.Close();
+                }
+                catch (SqlException  T)
+                {
+                    MessageBox.Show("Error in establishing connection to database. " + T.Message);
+                }   
                 listviewdatabase.Items.Clear();
                 txt_id.Text = "";
                 txt_name.Text = "";
@@ -42,7 +39,14 @@
 
             public void database_display()
             {
-                connect.Open();
+                try
+                {
+                    connect.Close();
+                }
+                catch (SqlException  T)
+                {
+                    MessageBox.Show("Error in establishing connection to database. " + T.Message);
+                }
                 listviewdatabase.Items.Clear();
 
                try
@@ -130,7 +134,14 @@
 
             public void database_delete()
             {
-                connect.Open();
+                try
+                {
+                    connect.Close();
+                }
+                catch (SqlException  T)
+                {
+                    MessageBox.Show("Error in establishing connection to database. " + T.Message);
+                }
                 try
                 {
                 using (SqlCommand eraser = new SqlCommand("DELETE FROM phone_table WHERE id=@id and name=@name and surname=@surname and phonenumber=@phonenumber",connect))
